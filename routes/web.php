@@ -26,3 +26,8 @@ Route::get('/admin/main', function () {
 Route::get('/admin/users', function () {
     return view('admin.users.user');
 });
+
+Route::get('/admin/products', function () {
+    return view('admin.products.product');
+});
+

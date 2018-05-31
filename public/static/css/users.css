@@ -1,0 +1,25 @@
+
+.users-container {
+	position: relative;
+	height: calc(100% - 55px - 63px);
+	overflow: hidden;
+}
+
+.table-wrap {
+	padding: 0 1%;
+	width: 98%;
+	height: calc(98% - 68px);
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.table-wrap table {
+	padding: 0;
+	margin: 0;
+}
+.users-page {
+	bottom: 0;
+	position: relative;
+	padding: 0 1%;
+	width: 98%;
+	height: 55px;
+}
