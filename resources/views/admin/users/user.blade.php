@@ -1,6 +1,6 @@
-@extends('admin.index')
+<!-- @extends('admin.index')
 
-@section('main')
+@section('main') -->
 	<link rel="stylesheet" type="text/css" href="{{ asset('static/css/users.css') }}">
 	<div class="layui-tab layui-tab-card" lay-allowClose="true">
 		<ul class="layui-tab-title">
@@ -116,4 +116,4 @@
 		  	}
 		});
 	</script>
-@endsection
+<!-- @endsection -->
